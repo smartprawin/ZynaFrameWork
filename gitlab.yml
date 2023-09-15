@@ -1,0 +1,12 @@
+image: maven:3.6.3
+
+stages:
+  - stagingJob
+
+stagingJob:
+  stage: staging
+  script: mvn -B verify --file pom.xml
+  timeout: 4h
+
+  variables:
+    domain: "staging.qliqsoft.com"

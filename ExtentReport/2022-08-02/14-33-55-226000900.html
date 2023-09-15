@@ -1,0 +1,1096 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mercy POC</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 2, 2022 02:33:55 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">VigneshD</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="2"
+          author="VigneshD"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Mercy FindDoctor</p>
+            <p class="text-sm">
+              <span>2:33:55 pm</span> / <span>00:01:52:591</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Mercy FindDoctor</h5>
+<span class='badge badge-success'>08.02.2022 2:33:55 pm</span>
+<span class='badge badge-danger'>08.02.2022 2:35:48 pm</span>
+<span class='badge badge-default'>00:01:52:591</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">VigneshD</span></div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:57:239</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>FindDoctor_JSON</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:00 pm</td>
+        <td>
+          Launch the application in Chrome
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:09 pm</td>
+        <td>
+          navigated to URL https://www.mercy.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:11 pm</td>
+        <td>
+          HomePage loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:17 pm</td>
+        <td>
+          Clicked on Geo Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:24 pm</td>
+        <td>
+          Location Set : Cincinnati, OH 45201, USA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:26 pm</td>
+        <td>
+          Clicked on Save Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:35 pm</td>
+        <td>
+          Clicked on Find A Doctor Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:37 pm</td>
+        <td>
+          FindDoctor Page loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:42 pm</td>
+        <td>
+          Clicked on 'Primary Care Providers' Count : 222
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:45 pm</td>
+        <td>
+          Clicked on 'Cardiology' Count : 25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:49 pm</td>
+        <td>
+          Clicked on 'Orthopedics' Count : 89
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:52 pm</td>
+        <td>
+          Clicked on 'Obstetrics and Gynecology' Count : 65
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:52 pm</td>
+        <td>
+          Provider Count Matched : 65
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:52 pm</td>
+        <td>
+          Closing browser Instance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:52 pm</td>
+        <td>
+          Completed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:55:184</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>FindDoctor_XLS</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:54 pm</td>
+        <td>
+          Launch the application in Chrome
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:05 pm</td>
+        <td>
+          navigated to URL https://www.mercy.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:07 pm</td>
+        <td>
+          HomePage loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:11 pm</td>
+        <td>
+          Clicked on Geo Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:18 pm</td>
+        <td>
+          Location Set : Cincinnati, OH 45201, USA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:20 pm</td>
+        <td>
+          Clicked on Save Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:29 pm</td>
+        <td>
+          Clicked on Find A Doctor Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:31 pm</td>
+        <td>
+          FindDoctor Page loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:36 pm</td>
+        <td>
+          Clicked on 'Primary Care Providers' Count : 222
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:40 pm</td>
+        <td>
+          Clicked on 'Cardiology' Count : 25
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:44 pm</td>
+        <td>
+          Clicked on 'Orthopedics' Count : 89
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:47 pm</td>
+        <td>
+          Clicked on 'Obstetrics and Gynecology' Count : 65
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:35:48 pm</td>
+        <td>
+          expected:<60> but was:<65>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1"
+          author="VigneshD"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Mercy Conditions and Treatments</p>
+            <p class="text-sm">
+              <span>2:33:55 pm</span> / <span>00:01:39:997</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Mercy Conditions and Treatments</h5>
+<span class='badge badge-success'>08.02.2022 2:33:55 pm</span>
+<span class='badge badge-danger'>08.02.2022 2:35:35 pm</span>
+<span class='badge badge-default'>00:01:39:997</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">VigneshD</span></div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:52:361</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>ConditionsTreatments_JSON</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:00 pm</td>
+        <td>
+          Launch the application in Chrome
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:09 pm</td>
+        <td>
+          navigated to URL https://www.mercy.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:11 pm</td>
+        <td>
+          HomePage loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:17 pm</td>
+        <td>
+          Clicked on Geo Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:24 pm</td>
+        <td>
+          Location Set : Cincinnati, OH 45201, USA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:26 pm</td>
+        <td>
+          Clicked on Save Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:36 pm</td>
+        <td>
+          Clicked on Conditions & Treatments Link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:40 pm</td>
+        <td>
+          ConditionsTreatments Page loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:41 pm</td>
+        <td>
+          Condition : Abdominal Pain Clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:47 pm</td>
+        <td>
+          Health providers : 11
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:34:47 pm</td>
+        <td>
+          Closing browser Instance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:47 pm</td>
+        <td>
+          Completed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:47:454</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>ConditionsTreatments_XLS</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:34:49 pm</td>
+        <td>
+          Launch the application in Chrome
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:03 pm</td>
+        <td>
+          navigated to URL https://www.mercy.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:05 pm</td>
+        <td>
+          HomePage loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:09 pm</td>
+        <td>
+          Clicked on Geo Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:16 pm</td>
+        <td>
+          Location Set : Cincinnati, OH 45201, USA
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:18 pm</td>
+        <td>
+          Clicked on Save Location Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:21 pm</td>
+        <td>
+          Clicked on Conditions & Treatments Link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:27 pm</td>
+        <td>
+          ConditionsTreatments Page loaded
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:27 pm</td>
+        <td>
+          Condition : Abdominal Pain Clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:35 pm</td>
+        <td>
+          Health providers : 11
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:35 pm</td>
+        <td>
+          Closing browser Instance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:35 pm</td>
+        <td>
+          Completed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="VigneshD"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">rapidAPI</p>
+            <p class="text-sm">
+              <span>2:35:35 pm</span> / <span>00:00:05:209</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">rapidAPI</h5>
+<span class='badge badge-success'>08.02.2022 2:35:35 pm</span>
+<span class='badge badge-danger'>08.02.2022 2:35:40 pm</span>
+<span class='badge badge-default'>00:00:05:209</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">VigneshD</span></div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:02:217</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>rapidAPI_Countries</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:35 pm</td>
+        <td>
+          Added the header ( X-RapidAPI-Key ) token = 59102f52fdmsh89e61c9ff7a9cdfp123964jsn4497fab810ed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:35 pm</td>
+        <td>
+          Added the header ( X-RapidAPI-Host ) token = covid-193.p.rapidapi.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:35 pm</td>
+        <td>
+          Method :: GET
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:37 pm</td>
+        <td>
+          Response Received
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:37 pm</td>
+        <td>
+          Status Code Verified :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:37 pm</td>
+        <td>
+          Completed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:513</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span>rapidAPI_History</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:37 pm</td>
+        <td>
+          Added the header ( X-RapidAPI-Key ) token = 59102f52fdmsh89e61c9ff7a9cdfp123964jsn4497fab810ed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:37 pm</td>
+        <td>
+          Added the header ( X-RapidAPI-Host ) token = covid-193.p.rapidapi.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:37 pm</td>
+        <td>
+          Method :: GET
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Response Received
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Status Code Verified :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Response Body Received
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"get":"history","parameters":{"country":"usa","day":"2020-06-02"},"errors":[],"results":48,"response":[{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+20974","active":1146955,"critical":17098,"recovered":625292,"1M_pop":"5683","total":1880297},"deaths":{"new":"+1125","1M_pop":"327","total":108050},"tests":{"1M_pop":"56180","total":18587037},"day":"2020-06-02","time":"2020-06-02T23:45:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+20808","active":1146818,"critical":17094,"recovered":625265,"1M_pop":"5683","total":1880131},"deaths":{"new":"+1123","1M_pop":"327","total":108048},"tests":{"1M_pop":"56132","total":18571231},"day":"2020-06-02","time":"2020-06-02T23:30:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+20342","active":1146523,"critical":17094,"recovered":625111,"1M_pop":"5681","total":1879665},"deaths":{"new":"+1106","1M_pop":"327","total":108031},"tests":{"1M_pop":"56118","total":18566731},"day":"2020-06-02","time":"2020-06-02T23:15:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+20324","active":1146527,"critical":17094,"recovered":625091,"1M_pop":"5681","total":1879647},"deaths":{"new":"+1104","1M_pop":"327","total":108029},"tests":{"1M_pop":"56114","total":18565386},"day":"2020-06-02","time":"2020-06-02T23:06:42+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+20211","active":1147495,"critical":16949,"recovered":624013,"1M_pop":"5681","total":1879534},"deaths":{"new":"+1101","1M_pop":"327","total":108026},"tests":{"1M_pop":"56104","total":18561974},"day":"2020-06-02","time":"2020-06-02T22:45:08+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+19941","active":1147242,"critical":16949,"recovered":624013,"1M_pop":"5680","total":1879264},"deaths":{"new":"+1084","1M_pop":"326","total":108009},"tests":{"1M_pop":"56104","total":18561974},"day":"2020-06-02","time":"2020-06-02T22:30:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+19662","active":1148596,"critical":16949,"recovered":622385,"1M_pop":"5679","total":1878985},"deaths":{"new":"+1079","1M_pop":"326","total":108004},"tests":{"1M_pop":"55921","total":18501541},"day":"2020-06-02","time":"2020-06-02T22:15:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+17179","active":1146579,"critical":16949,"recovered":622016,"1M_pop":"5672","total":1876502},"deaths":{"new":"+982","1M_pop":"326","total":107907},"tests":{"1M_pop":"55895","total":18492863},"day":"2020-06-02","time":"2020-06-02T21:45:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+16763","active":1146199,"critical":16942,"recovered":621996,"1M_pop":"5671","total":1876086},"deaths":{"new":"+966","1M_pop":"326","total":107891},"tests":{"1M_pop":"55895","total":18492863},"day":"2020-06-02","time":"2020-06-02T21:30:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+15964","active":1145883,"critical":16941,"recovered":621549,"1M_pop":"5668","total":1875287},"deaths":{"new":"+930","1M_pop":"326","total":107855},"tests":{"1M_pop":"55876","total":18486461},"day":"2020-06-02","time":"2020-06-02T21:15:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+15408","active":1145446,"critical":16939,"recovered":621439,"1M_pop":"5666","total":1874731},"deaths":{"new":"+921","1M_pop":"326","total":107846},"tests":{"1M_pop":"55817","total":18466841},"day":"2020-06-02","time":"2020-06-02T21:00:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+14945","active":1146293,"critical":16939,"recovered":620129,"1M_pop":"5665","total":1874268},"deaths":{"new":"+921","1M_pop":"326","total":107846},"tests":{"1M_pop":"55745","total":18443243},"day":"2020-06-02","time":"2020-06-02T20:45:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+14330","active":1146945,"critical":16939,"recovered":618867,"1M_pop":"5663","total":1873653},"deaths":{"new":"+916","1M_pop":"326","total":107841},"tests":{"1M_pop":"55634","total":18406453},"day":"2020-06-02","time":"2020-06-02T20:30:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+13686","active":1146359,"critical":16949,"recovered":618867,"1M_pop":"5661","total":1873009},"deaths":{"new":"+858","1M_pop":"326","total":107783},"tests":{"1M_pop":"55614","total":18399716},"day":"2020-06-02","time":"2020-06-02T20:15:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+13073","active":1145766,"critical":16949,"recovered":618867,"1M_pop":"5659","total":1872396},"deaths":{"new":"+838","1M_pop":"326","total":107763},"tests":{"1M_pop":"55382","total":18323004},"day":"2020-06-02","time":"2020-06-02T20:00:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+10915","active":1143751,"critical":16949,"recovered":618867,"1M_pop":"5653","total":1870238},"deaths":{"new":"+695","1M_pop":"325","total":107620},"tests":{"1M_pop":"55382","total":18323004},"day":"2020-06-02","time":"2020-06-02T19:45:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+10913","active":1143749,"critical":16949,"recovered":618867,"1M_pop":"5653","total":1870236},"deaths":{"new":"+695","1M_pop":"325","total":107620},"tests":{"1M_pop":"55382","total":18323004},"day":"2020-06-02","time":"2020-06-02T19:30:05+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+10066","active":1142902,"critical":16949,"recovered":618867,"1M_pop":"5650","total":1869389},"deaths":{"new":"+695","1M_pop":"325","total":107620},"tests":{"1M_pop":"55382","total":18323004},"day":"2020-06-02","time":"2020-06-02T19:15:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+9867","active":1142740,"critical":16949,"recovered":618867,"1M_pop":"5650","total":1869190},"deaths":{"new":"+658","1M_pop":"325","total":107583},"tests":{"1M_pop":"55382","total":18323004},"day":"2020-06-02","time":"2020-06-02T19:00:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+9806","active":1142682,"critical":16949,"recovered":618867,"1M_pop":"5649","total":1869129},"deaths":{"new":"+655","1M_pop":"325","total":107580},"tests":{"1M_pop":"55382","total":18323004},"day":"2020-06-02","time":"2020-06-02T18:30:09+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+9398","active":1142323,"critical":16949,"recovered":618864,"1M_pop":"5648","total":1868721},"deaths":{"new":"+609","1M_pop":"325","total":107534},"tests":{"1M_pop":"55347","total":18311607},"day":"2020-06-02","time":"2020-06-02T18:15:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+9177","active":1142106,"critical":16949,"recovered":618864,"1M_pop":"5648","total":1868500},"deaths":{"new":"+605","1M_pop":"325","total":107530},"tests":{"1M_pop":"55347","total":18311607},"day":"2020-06-02","time":"2020-06-02T18:00:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+7965","active":1142554,"critical":16949,"recovered":617266,"1M_pop":"5644","total":1867288},"deaths":{"new":"+543","1M_pop":"325","total":107468},"tests":{"1M_pop":"55281","total":18289496},"day":"2020-06-02","time":"2020-06-02T17:45:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+7404","active":1142445,"critical":16949,"recovered":616856,"1M_pop":"5642","total":1866727},"deaths":{"new":"+501","1M_pop":"325","total":107426},"tests":{"1M_pop":"55092","total":18227114},"day":"2020-06-02","time":"2020-06-02T17:30:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+7327","active":1142424,"critical":16949,"recovered":616856,"1M_pop":"5642","total":1866650},"deaths":{"new":"+445","1M_pop":"325","total":107370},"tests":{"1M_pop":"55092","total":18227114},"day":"2020-06-02","time":"2020-06-02T17:15:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+6579","active":1141694,"critical":16949,"recovered":616856,"1M_pop":"5640","total":1865902},"deaths":{"new":"+427","1M_pop":"324","total":107352},"tests":{"1M_pop":"55092","total":18227114},"day":"2020-06-02","time":"2020-06-02T17:00:08+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+6543","active":1141660,"critical":16949,"recovered":616856,"1M_pop":"5640","total":1865866},"deaths":{"new":"+425","1M_pop":"324","total":107350},"tests":{"1M_pop":"55092","total":18227114},"day":"2020-06-02","time":"2020-06-02T16:45:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+6181","active":1141394,"critical":16949,"recovered":616796,"1M_pop":"5639","total":1865504},"deaths":{"new":"+389","1M_pop":"324","total":107314},"tests":{"1M_pop":"55053","total":18214101},"day":"2020-06-02","time":"2020-06-02T16:30:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+6136","active":1141373,"critical":16949,"recovered":616796,"1M_pop":"5638","total":1865459},"deaths":{"new":"+365","1M_pop":"324","total":107290},"tests":{"1M_pop":"55053","total":18214101},"day":"2020-06-02","time":"2020-06-02T16:15:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+3556","active":1140025,"critical":16949,"recovered":615719,"1M_pop":"5631","total":1862879},"deaths":{"new":"+210","1M_pop":"324","total":107135},"tests":{"1M_pop":"54988","total":18192664},"day":"2020-06-02","time":"2020-06-02T16:00:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+3024","active":1139561,"critical":16949,"recovered":615718,"1M_pop":"5629","total":1862347},"deaths":{"new":"+143","1M_pop":"324","total":107068},"tests":{"1M_pop":"54957","total":18182361},"day":"2020-06-02","time":"2020-06-02T15:45:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+2774","active":1139382,"critical":16949,"recovered":615654,"1M_pop":"5628","total":1862097},"deaths":{"new":"+136","1M_pop":"324","total":107061},"tests":{"1M_pop":"54957","total":18182361},"day":"2020-06-02","time":"2020-06-02T15:30:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+2773","active":1139381,"critical":16949,"recovered":615654,"1M_pop":"5628","total":1862096},"deaths":{"new":"+136","1M_pop":"324","total":107061},"tests":{"1M_pop":"54930","total":18173575},"day":"2020-06-02","time":"2020-06-02T15:00:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+2151","active":1138828,"critical":16949,"recovered":615654,"1M_pop":"5626","total":1861474},"deaths":{"new":"+67","1M_pop":"323","total":106992},"tests":{"1M_pop":"54898","total":18162929},"day":"2020-06-02","time":"2020-06-02T14:45:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+2151","active":1138830,"critical":16949,"recovered":615654,"1M_pop":"5626","total":1861474},"deaths":{"new":"+65","1M_pop":"323","total":106990},"tests":{"1M_pop":"54898","total":18162929},"day":"2020-06-02","time":"2020-06-02T14:30:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+1303","active":1138027,"critical":16949,"recovered":615654,"1M_pop":"5624","total":1860626},"deaths":{"new":"+20","1M_pop":"323","total":106945},"tests":{"1M_pop":"54898","total":18162929},"day":"2020-06-02","time":"2020-06-02T14:15:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+1290","active":1138015,"critical":16949,"recovered":615654,"1M_pop":"5624","total":1860613},"deaths":{"new":"+19","1M_pop":"323","total":106944},"tests":{"1M_pop":"54875","total":18155363},"day":"2020-06-02","time":"2020-06-02T13:45:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+449","active":1137190,"critical":16949,"recovered":615653,"1M_pop":"5621","total":1859772},"deaths":{"new":"+4","1M_pop":"323","total":106929},"tests":{"1M_pop":"54873","total":18154510},"day":"2020-06-02","time":"2020-06-02T13:00:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+449","active":1137417,"critical":16949,"recovered":615426,"1M_pop":"5621","total":1859772},"deaths":{"new":"+4","1M_pop":"323","total":106929},"tests":{"1M_pop":"54873","total":18154510},"day":"2020-06-02","time":"2020-06-02T12:30:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+386","active":1137356,"critical":16949,"recovered":615426,"1M_pop":"5621","total":1859709},"deaths":{"new":"+2","1M_pop":"323","total":106927},"tests":{"1M_pop":"54873","total":18154510},"day":"2020-06-02","time":"2020-06-02T12:15:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+370","active":1137340,"critical":16949,"recovered":615426,"1M_pop":"5621","total":1859693},"deaths":{"new":"+2","1M_pop":"323","total":106927},"tests":{"1M_pop":"54872","total":18154215},"day":"2020-06-02","time":"2020-06-02T12:00:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+274","active":1137244,"critical":16949,"recovered":615426,"1M_pop":"5621","total":1859597},"deaths":{"new":"+2","1M_pop":"323","total":106927},"tests":{"1M_pop":"54872","total":18154215},"day":"2020-06-02","time":"2020-06-02T10:00:07+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+38","active":1137020,"critical":16949,"recovered":615416,"1M_pop":"5620","total":1859361},"deaths":{"new":null,"1M_pop":"323","total":106925},"tests":{"1M_pop":"54859","total":18150053},"day":"2020-06-02","time":"2020-06-02T07:00:06+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":null,"active":1136982,"critical":16949,"recovered":615416,"1M_pop":"5620","total":1859323},"deaths":{"new":null,"1M_pop":"323","total":106925},"tests":{"1M_pop":"54859","total":18150053},"day":"2020-06-02","time":"2020-06-02T06:15:05+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+22145","active":1136979,"critical":16949,"recovered":615411,"1M_pop":"5620","total":1859315},"deaths":{"new":"+730","1M_pop":"323","total":106925},"tests":{"1M_pop":"54859","total":18150053},"day":"2020-06-02","time":"2020-06-02T00:45:05+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+22004","active":1136910,"critical":16949,"recovered":615341,"1M_pop":"5619","total":1859174},"deaths":{"new":"+728","1M_pop":"323","total":106923},"tests":{"1M_pop":"54859","total":18150053},"day":"2020-06-02","time":"2020-06-02T00:30:05+00:00"},{"continent":"North-America","country":"USA","population":330848770,"cases":{"new":"+22281","active":1137200,"critical":16949,"recovered":615328,"1M_pop":"5620","total":1859451},"deaths":{"new":"+728","1M_pop":"323","total":106923},"tests":{"1M_pop":"54859","total":18150053},"day":"2020-06-02","time":"2020-06-02T00:15:05+00:00"},{"continent":"North-America","country":"USA","population":330843477,"cases":{"new":"+21829","active":1136777,"critical":16947,"recovered":615301,"1M_pop":"5619","total":1858999},"deaths":{"new":"+726","1M_pop":"323","total":106921},"tests":{"1M_pop":"54856","total":18148683},"day":"2020-06-02","time":"2020-06-02T00:00:05+00:00"}]}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Completed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:450</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>rapidAPI_Statistics</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">VigneshD</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Added the header ( X-RapidAPI-Key ) token = 59102f52fdmsh89e61c9ff7a9cdfp123964jsn4497fab810ed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Added the header ( X-RapidAPI-Host ) token = covid-193.p.rapidapi.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:39 pm</td>
+        <td>
+          Method :: GET
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:35:40 pm</td>
+        <td>
+          Response Received
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:40 pm</td>
+        <td>
+          Status Code Verified :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:35:40 pm</td>
+        <td>
+          Completed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">VigneshD</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>VigneshD</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:33:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Mercy Conditions and Treatments</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:33:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Mercy FindDoctor</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:35:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>rapidAPI</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 2, 2022 02:33:55 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 2, 2022 02:35:48 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='33%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'><b>6</b> steps passed</small></div>
+<div>
+<small data-tooltip='14%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='20%'><b>15</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> events failed,
+<b data-tooltip='%'>56</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Mercy FindDoctor":112.591,"Mercy Conditions and Treatments":99.997,"rapidAPI":5.209
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>VigneshD</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 6,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 15,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 56
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

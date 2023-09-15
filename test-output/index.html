@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Mercy_POC" class="navigator-link">
+              <span class="suite-name border-failed">Mercy POC</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Mercy_POC" class="navigator-link ">
+                    <span>C:\Users\VigneshD\git\healthcare-demo-poc\src\test\resources\suiteRepository\mercy.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Mercy_POC" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Mercy_POC" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Mercy_POC" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Mercy_POC" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Mercy_POC" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Mercy_POC" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 2 failed,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Mercy_POC" class="hide-methods failed suite-Mercy_POC"> (hide)</a> <!-- hide-methods failed suite-Mercy_POC -->
+                      <a href="#" panel-name="suite-Mercy_POC" class="show-methods failed suite-Mercy_POC"> (show)</a> <!-- show-methods failed suite-Mercy_POC -->
+                    </span>
+                    <div class="method-list-content failed suite-Mercy_POC">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.Web.ConditionsTreatmentsTC" class="method navigator-link" hash-for-method="TC_Description_JSON({isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, o...)">TC_Description_JSON({isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.Web.FindDoctorTC" class="method navigator-link" hash-for-method="TC_FindDoctor_XLS({isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, ...)">TC_FindDoctor_XLS({isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Mercy_POC -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Mercy_POC" class="hide-methods skipped suite-Mercy_POC"> (hide)</a> <!-- hide-methods skipped suite-Mercy_POC -->
+                      <a href="#" panel-name="suite-Mercy_POC" class="show-methods skipped suite-Mercy_POC"> (show)</a> <!-- show-methods skipped suite-Mercy_POC -->
+                    </span>
+                    <div class="method-list-content skipped suite-Mercy_POC">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.Web.ConditionsTreatmentsTC" class="method navigator-link" hash-for-method="TC_Description_XLS({isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os...)">TC_Description_XLS({isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Mercy_POC -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Mercy_POC" class="hide-methods passed suite-Mercy_POC"> (hide)</a> <!-- hide-methods passed suite-Mercy_POC -->
+                      <a href="#" panel-name="suite-Mercy_POC" class="show-methods passed suite-Mercy_POC"> (show)</a> <!-- show-methods passed suite-Mercy_POC -->
+                    </span>
+                    <div class="method-list-content passed suite-Mercy_POC">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.API.rapidAPI" class="method navigator-link" hash-for-method="Countries">Countries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.API.rapidAPI" class="method navigator-link" hash-for-method="History">History</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.API.rapidAPI" class="method navigator-link" hash-for-method="Statistics">Statistics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mercy_POC" title="com.Mercy.Web.FindDoctorTC" class="method navigator-link" hash-for-method="TC_FindDoctor_JSON({isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows,...)">TC_FindDoctor_JSON({isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Mercy_POC -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Mercy_POC" class="panel Mercy_POC">
+          <div class="suite-Mercy_POC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Mercy.Web.FindDoctorTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FindDoctor_XLS({isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, ...)">
+                  </a> <!-- TC_FindDoctor_XLS({isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, ...) -->
+                  <span class="method-name">TC_FindDoctor_XLS</span>
+                  <span class="parameters">({isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;60&gt; but was:&lt;65&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at pageObject.FindDoctor.AssertCount(FindDoctor.java:49)
+	at com.Mercy.Web.FindDoctorTC.TC_FindDoctor_XLS(FindDoctorTC.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(FindDoctor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mercy_POC-class-failed -->
+          <div class="suite-Mercy_POC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Mercy.Web.ConditionsTreatmentsTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Description_JSON({isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, o...)">
+                  </a> <!-- TC_Description_JSON({isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, o...) -->
+                  <span class="method-name">TC_Description_JSON</span>
+                  <span class="parameters">({isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;btn mr2 flex-1&apos;] (tried for 20 second(s) with 2000 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utility.Util.myFind(Util.java:495)
+	at pageObject.HomePage.clicksaveLocationButton(HomePage.java:75)
+	at com.Mercy.Web.ConditionsTreatmentsTC.TC_Description_JSON(ConditionsTreatmentsTC.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;btn mr2 flex-1&apos;]&quot;}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;CESIT-LAP-0135&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa3fa6a9e57b1381ba924e7f103fc63d, findElement {using=xpath, value=//button[@class=&apos;btn mr2 flex-1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\VigneshD\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54639/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa3fa6a9e57b1381ba924e7f103fc63d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(ConditionsTreatments)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mercy_POC-class-failed -->
+          <div class="suite-Mercy_POC-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.Mercy.Web.ConditionsTreatmentsTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Description_XLS({isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os...)">
+                  </a> <!-- TC_Description_XLS({isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os...) -->
+                  <span class="method-name">TC_Description_XLS</span>
+                  <span class="parameters">({isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10})</span>
+                  <div class="stack-trace">java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2601)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:842)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at utility.Util.capture(Util.java:1055)
+	at com.Mercy.Base.BaseClass.getResult(BaseClass.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(ConditionsTreatments)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mercy_POC-class-skipped -->
+          <div class="suite-Mercy_POC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Mercy.API.rapidAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Countries">
+                  </a> <!-- Countries -->
+                  <span class="method-name">Countries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="History">
+                  </a> <!-- History -->
+                  <span class="method-name">History</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Statistics">
+                  </a> <!-- Statistics -->
+                  <span class="method-name">Statistics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mercy_POC-class-passed -->
+          <div class="suite-Mercy_POC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Mercy.Web.FindDoctorTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FindDoctor_JSON({isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows,...)">
+                  </a> <!-- TC_FindDoctor_JSON({isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows,...) -->
+                  <span class="method-name">TC_FindDoctor_JSON</span>
+                  <span class="parameters">({isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10})</span>
+                  <em>
+(FindDoctor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mercy_POC-class-passed -->
+        </div> <!-- panel Mercy_POC -->
+        <div panel-name="test-xml-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\VigneshD\git\healthcare-demo-poc\src\test\resources\suiteRepository\mercy.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; data-provider-thread-count=&quot;4&quot; name=&quot;Mercy POC&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Find Doctor&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Mercy.Web.FindDoctorTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Find Doctor --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Conditions Treatments&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Mercy.Web.ConditionsTreatmentsTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Conditions Treatments --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Rapid API&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Mercy.API.rapidAPI&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rapid API --&gt;
+&lt;/suite&gt; &lt;!-- Mercy POC --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Mercy POC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Find Doctor (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Conditions Treatments (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Rapid API (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Mercy POC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">xls</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_Description_XLS</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_FindDoctor_XLS</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Mercy POC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Mercy_POC');
+function tableData_Mercy_POC() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_FindDoctor_JSON')
+data.setCell(0, 2, 'com.Mercy.Web.FindDoctorTC')
+data.setCell(0, 3, 58731);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_FindDoctor_XLS')
+data.setCell(1, 2, 'com.Mercy.Web.FindDoctorTC')
+data.setCell(1, 3, 56453);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_Description_JSON')
+data.setCell(2, 2, 'com.Mercy.Web.ConditionsTreatmentsTC')
+data.setCell(2, 3, 51313);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Countries')
+data.setCell(3, 2, 'com.Mercy.API.rapidAPI')
+data.setCell(3, 3, 2638);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Statistics')
+data.setCell(4, 2, 'com.Mercy.API.rapidAPI')
+data.setCell(4, 3, 1767);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'History')
+data.setCell(5, 2, 'com.Mercy.API.rapidAPI')
+data.setCell(5, 3, 1532);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_Description_XLS')
+data.setCell(6, 2, 'com.Mercy.Web.ConditionsTreatmentsTC')
+data.setCell(6, 3, 1);
+window.suiteTableData['Mercy_POC']= { tableData: data, tableDiv: 'times-div-Mercy_POC'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Mercy_POC">
+              </div> <!-- times-div-Mercy_POC -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Mercy POC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Mercy_POC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.API.rapidAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initiateReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.Web.FindDoctorTC</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpReport</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.Web.ConditionsTreatmentsTC</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpReport</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.Web.FindDoctorTC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_FindDoctor_JSON({isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows,...)</span>
+                <span class="method-start">309 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.Web.ConditionsTreatmentsTC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_Description_JSON({isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, o...)</span>
+                <span class="method-start">309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResult([TestResult name=TC_Description_JSON status=FAILURE method=ConditionsTreatmentsTC.TC_Description_JSO...)</span>
+                <span class="method-start">51811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">isTestRunable</span>
+                <span class="method-start">52461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_Description_XLS({isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os...)</span>
+                <span class="method-start">52468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name={null} status=CREATED method=ConditionsTreatmentsTC.TC_Description_XLS(java.util.Ha...)</span>
+                <span class="method-start">52482 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.API.rapidAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpReport</span>
+                <span class="method-start">52539 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Countries</span>
+                <span class="method-start">52541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Countries status=SUCCESS method=rapidAPI.Countries()[pri:0, instance:com.Mercy.API....)</span>
+                <span class="method-start">55191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">History</span>
+                <span class="method-start">55201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=History status=SUCCESS method=rapidAPI.History()[pri:0, instance:com.Mercy.API.rapi...)</span>
+                <span class="method-start">56737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Statistics</span>
+                <span class="method-start">56741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Statistics status=SUCCESS method=rapidAPI.Statistics()[pri:0, instance:com.Mercy.AP...)</span>
+                <span class="method-start">58512 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.Web.FindDoctorTC</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=TC_FindDoctor_JSON status=SUCCESS method=FindDoctorTC.TC_FindDoctor_JSON(java.util....)</span>
+                <span class="method-start">59045 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">isTestRunable</span>
+                <span class="method-start">59053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FindDoctor_XLS({isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, ...)</span>
+                <span class="method-start">59057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResult([TestResult name=TC_FindDoctor_XLS status=FAILURE method=FindDoctorTC.TC_FindDoctor_XLS(java.util.Ha...)</span>
+                <span class="method-start">115519 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Mercy.API.rapidAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeReport</span>
+                <span class="method-start">115981 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

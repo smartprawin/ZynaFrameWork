@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mercy POC" preserve-order="true" parallel="tests" thread-count="2" data-provider-thread-count="4">
+
+	<test name="Find Doctor">
+		<classes>
+			<class name="com.Mercy.Web.FindDoctorTC" />
+		</classes>
+	</test>
+
+	<test name="Conditions Treatments">
+		<classes>
+			<class name="com.Mercy.Web.ConditionsTreatmentsTC" />
+		</classes>
+	</test>
+
+	<test name="Rapid API">
+		<classes>
+			<class name="com.Mercy.API.rapidAPI" />
+		</classes>
+	</test>
+
+</suite>

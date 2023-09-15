@@ -1,0 +1,27 @@
+{
+ "FindDoctor" : [{
+ 						"RunMode":"Y"
+ 						"TestName":"FindDoctor_JSON"
+ 						"Description":""
+ 						"isMobile":"N"
+ 						"os":"Windows"
+ 						"os_version":"10"
+ 						"browser":"Chrome"
+ 						"browserVersion":"latest"
+ 						}]
+ 
+ 
+ 
+ "ConditionsTreatments" : [{
+ 						"RunMode":"Y"
+ 						"TestName":"ConditionsTreatments_JSON"
+ 						"Description":""
+ 						"isMobile":"N"
+ 						"os":"Windows"
+ 						"os_version":"10"
+ 						"browser":"Chrome"
+ 						"browserVersion":"latest"
+ 						}]
+ 
+
+}

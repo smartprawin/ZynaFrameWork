@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Mercy POC</th></tr>
+<tr><td><a href="#t0">Conditions Treatments</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,247</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Rapid API</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,978</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Find Doctor</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">115,674</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">2</th><th class="num">173,899</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Mercy POC</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Conditions Treatments &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.Mercy.Web.ConditionsTreatmentsTC</td><td><a href="#m0">getResult</a></td><td rowspan="1">1659441595369</td><td rowspan="1">587</td></tr><tr><th colspan="4">Conditions Treatments &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Mercy.Web.ConditionsTreatmentsTC</td><td><a href="#m1">TC_Description_JSON</a></td><td rowspan="1">1659441543867</td><td rowspan="1">51313</td></tr><tr><th colspan="4">Conditions Treatments &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.Mercy.Web.ConditionsTreatmentsTC</td><td><a href="#m2">isTestRunable</a></td><td rowspan="1">1659441596019</td><td rowspan="1">0</td></tr><tr><th colspan="4">Conditions Treatments &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.Mercy.Web.ConditionsTreatmentsTC</td><td><a href="#m3">TC_Description_XLS</a></td><td rowspan="1">1659441596026</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Rapid API &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.Mercy.API.rapidAPI</td><td><a href="#m4">Countries</a></td><td rowspan="1">1659441596099</td><td rowspan="1">2638</td></tr><tr class="passedeven"><td><a href="#m5">History</a></td><td rowspan="1">1659441598759</td><td rowspan="1">1532</td></tr><tr class="passedeven"><td><a href="#m6">Statistics</a></td><td rowspan="1">1659441600299</td><td rowspan="1">1767</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Find Doctor &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.Mercy.Web.FindDoctorTC</td><td><a href="#m7">getResult</a></td><td rowspan="1">1659441659077</td><td rowspan="1">375</td></tr><tr><th colspan="4">Find Doctor &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Mercy.Web.FindDoctorTC</td><td><a href="#m8">TC_FindDoctor_XLS</a></td><td rowspan="1">1659441602615</td><td rowspan="1">56453</td></tr><tr><th colspan="4">Find Doctor &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Mercy.Web.FindDoctorTC</td><td><a href="#m9">TC_FindDoctor_JSON</a></td><td rowspan="1">1659441543867</td><td rowspan="1">58731</td></tr></tbody>
+</table>
+<h2>Conditions Treatments</h2><h3 id="m0">com.Mercy.Web.ConditionsTreatmentsTC#getResult</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=TC_Description_JSON status=FAILURE method=ConditionsTreatmentsTC.TC_Description_JSON(java.util.Hashtable)[pri:0, instance:com.Mercy.Web.ConditionsTreatmentsTC@70f31322] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2601)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:842)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at utility.Util.capture(Util.java:1055)
+	at com.Mercy.Base.BaseClass.getResult(BaseClass.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Mercy.Web.ConditionsTreatmentsTC#TC_Description_JSON</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{isMobile=N, TestName=ConditionsTreatments_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;btn mr2 flex-1&apos;] (tried for 20 second(s) with 2000 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utility.Util.myFind(Util.java:495)
+	at pageObject.HomePage.clicksaveLocationButton(HomePage.java:75)
+	at com.Mercy.Web.ConditionsTreatmentsTC.TC_Description_JSON(ConditionsTreatmentsTC.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;btn mr2 flex-1&apos;]&quot;}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;CESIT-LAP-0135&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa3fa6a9e57b1381ba924e7f103fc63d, findElement {using=xpath, value=//button[@class=&apos;btn mr2 flex-1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\VigneshD\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54639/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa3fa6a9e57b1381ba924e7f103fc63d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Mercy.Web.ConditionsTreatmentsTC#isTestRunable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Mercy.Web.ConditionsTreatmentsTC#TC_Description_XLS</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{isMobile=N, TestName=ConditionsTreatments_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2601)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:842)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at utility.Util.capture(Util.java:1055)
+	at com.Mercy.Base.BaseClass.getResult(BaseClass.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Rapid API</h2><h3 id="m4">com.Mercy.API.rapidAPI#Countries</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.Mercy.API.rapidAPI#History</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.Mercy.API.rapidAPI#Statistics</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Find Doctor</h2><h3 id="m7">com.Mercy.Web.FindDoctorTC#getResult</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=TC_FindDoctor_XLS status=FAILURE method=FindDoctorTC.TC_FindDoctor_XLS(java.util.Hashtable)[pri:0, instance:com.Mercy.Web.FindDoctorTC@65ec8b24] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2601)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:842)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:756)
+	at utility.Util.capture(Util.java:1055)
+	at com.Mercy.Base.BaseClass.getResult(BaseClass.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.Mercy.Web.FindDoctorTC#TC_FindDoctor_XLS</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{isMobile=N, TestName=FindDoctor_XLS, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;60&gt; but was:&lt;65&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at pageObject.FindDoctor.AssertCount(FindDoctor.java:49)
+	at com.Mercy.Web.FindDoctorTC.TC_FindDoctor_XLS(FindDoctorTC.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.Mercy.Web.FindDoctorTC#TC_FindDoctor_JSON</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{isMobile=N, TestName=FindDoctor_JSON, RunMode=Y, browserVersion=latest, browser=Chrome, os=Windows, Description=, os_version=10}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
